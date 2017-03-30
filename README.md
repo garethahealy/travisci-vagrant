@@ -11,3 +11,5 @@ See .travis.yml for more info on what needs to be installed.
 Sadly not. vagrant/virtualbox needs VT-x enabled, travis currently doesnt seem to support this, as build fails with:
 
     VBoxManage: error: VT-x is not available (VERR_VMX_NO_VMX)
+
+- https://github.com/travis-ci/travis-ci/issues/1419
